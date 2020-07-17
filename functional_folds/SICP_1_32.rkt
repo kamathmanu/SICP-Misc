@@ -32,7 +32,7 @@
   (* m n))
 
 (define (product term a next b)
-  (accumulate product 1 term a next b))
+  (accumulate multiply 1 term a next b))
 
 ; Tests
 
